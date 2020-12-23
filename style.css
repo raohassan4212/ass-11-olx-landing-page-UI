@@ -9,14 +9,16 @@ body {
     background-color: rgba(0,47,52,.03);
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
-    height: 75px;
-    margin-top: -6px;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 0;
 }
 
 .olx-logo {
     width: 45px;
     margin: auto 0 ;
+    margin-bottom: 5px;
 }
 
 .inp-pak {
@@ -32,6 +34,7 @@ body {
     background-position: left ;
     background-position-x: 10px;
     padding-left: 50px;
+    margin-bottom: 5px;
 }
 
 .inp-pak::placeholder {
@@ -46,6 +49,12 @@ body {
     border: none;
     border: 2px solid rgb(71, 66, 66);
     border-radius: 5px;
+    background-image: url(images/inp-2-black-search.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-position-x: 614px;
+    margin-bottom: 5px;
 }
 
 .inp-car::placeholder {
@@ -54,3 +63,78 @@ body {
     padding: 0 0 0 16px;
 }
 
+.a-login {
+    font-weight: bold;
+    font-size: 16px;
+    color: #002f34;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid #002f34;
+}
+
+.a-login:hover {
+    border: none;
+}
+
+.sell-btn {
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-top: 5px solid #23e5db;
+    border-bottom: 5px solid #ffce32;
+    border-right: 5px solid #3a77ff;
+    border-left: 5px solid #3a77ff;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+/* nav bar css end */
+
+
+
+/* second nav all categories css start */
+
+.second-nav-categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-bottom: 0px;
+}
+
+.sec-nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-nav-ul li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alll {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: -35px;
+    color: #002f34;
+}
+
+.sec-nav-ul>li {
+    margin-left: 15px;
+}
+
+.sec-nav-ul a {
+    text-decoration: none;
+    color: #002f34;
+}
+
+.sec-nav-ul a:hover {
+    color: #21d1c8;
+}
+
+
+/* second nav all categories css end */
