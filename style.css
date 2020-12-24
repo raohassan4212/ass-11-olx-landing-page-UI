@@ -214,3 +214,31 @@ body {
 .load-more>button:hover {
     border: 5px solid #002f34;
 }
+
+/* try olx css start */
+
+.try-olx {
+    display: flex;
+    background-color: #f7f8f9;
+    margin-top: 20px;
+}
+
+.try-olx-2>h1 {
+    color: #002f34;
+}
+
+.try-olx-2>p {
+    color: #002f34;
+    font-size: 20px;
+}
+
+.try-olx-3 {
+    padding-top: 30px;
+}
+
+.try-olx-3>h3 {
+    font-size: 15px;
+    color: #002f34;
+}
+
+/* try olx css end */
