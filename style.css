@@ -308,3 +308,14 @@ body {
 }
 
 /* footer follow us css END */
+
+
+/* footer CSS START */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #002f34;
+    color: white;
+}
