@@ -188,3 +188,29 @@ body {
     font-size: 10px;
     padding-top: 15px;
 }
+
+/* fresh recommendation css end */
+
+
+
+/* load more css */
+
+.load-more {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.load-more>button {
+    color: #002f34;
+    border: none;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.load-more>button:hover {
+    border: 5px solid #002f34;
+}
