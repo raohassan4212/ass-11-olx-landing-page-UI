@@ -221,6 +221,7 @@ body {
     display: flex;
     background-color: #f7f8f9;
     margin-top: 20px;
+    width: 100%;
 }
 
 .try-olx-2>h1 {
@@ -242,3 +243,68 @@ body {
 }
 
 /* try olx css end */
+
+
+
+
+/* footer follow us css START */
+
+.footer-follow-us {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ebeeef;
+}
+
+.popular li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #002f34;
+}
+
+.trending li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #002f34;
+}
+
+.about li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #002f34;
+}
+
+.olx-us li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #002f34;
+}
+
+.li-single {
+    color: #002f34;
+    font-weight: bold;
+    font-size: 15px !important; 
+}
+
+@media only screen and (max-width: 615px) {
+    .try-olx-2 {
+        display: none;
+    }
+
+    .try-olx-3 {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+.fa-facebook {
+    background-color: lightblue;
+}
+
+/* footer follow us css END */
